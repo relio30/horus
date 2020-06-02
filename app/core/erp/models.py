@@ -80,8 +80,3 @@ class DetSale(models.Model):
         verbose_name = 'Detalle de Venta'
         verbose_name_plural = 'Detalle de Ventas'
         ordering = ['id']
-
-
-
-
-

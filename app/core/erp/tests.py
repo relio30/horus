@@ -1,9 +1,5 @@
 from config.wsgi import *
-from core.erp.models import Type
+from core.erp.models import Category
 
-query = Type.objects.all()
-print(query)
-
-t = Type()
-t.name = 'President'
-t.save()
+q = Category.objects.all()
+print(q)

@@ -42,9 +42,9 @@
 
         </div>
         <div class="card-footer">
-            <button type="button" class="btn btn-primary btn-flat btnTest">
+            <a href="{{ create_url }}" type="button" class="btn btn-primary btn-flat" id="btnTest">
                 <i class="fas fa-plus"></i> Nuevo Registro
-            </button>
+            </a>
         </div>
     </div>
 {% endblock %}
@@ -58,7 +58,7 @@
                 autoWidth: false,
             });
 
-            $('.btnTest').on('click', function () {
+            $('#btnTest').on('click', function () {
                 $.ajax({
                     url: '{% url 'erp:category_list' %}',
                     type: 'POST',
@@ -66,8 +66,8 @@
                     dataType: 'json'
                 }).done(function (data) {
                     console.log(data)
-                }).fail(function (data) {
-                    alert('error')
+                }).fail(function (jqXHR, textStatus, errorThrown) {
+                    alert(textStatus + ': ' + errorThrown);
                 }).always(function (data) {
                     alert("complete")
                 })

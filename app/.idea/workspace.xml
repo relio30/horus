@@ -19,121 +19,114 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="868974e6-aa83-49fe-a0c7-05249845a0ef" name="Default Changelist" comment="add adminlte">
-      <change afterPath="$PROJECT_DIR$/core/erp/templates/category/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/erp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/erp/views/category/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/dataTables.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/dataTables.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/dataTables.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/css/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/datatables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/datatables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/datatables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/dataTables.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/dataTables.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/dataTables.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/dataTables.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/buttons.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/css/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.colVis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.colVis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.flash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.html5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.print.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.print.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/buttons.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/dataTables.buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/js/dataTables.buttons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/Buttons-1.6.2/swf/flashExport.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/bootstrap-4-4.1.1/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/bootstrap-4-4.1.1/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/bootstrap-4-4.1.1/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/bootstrap-4-4.1.1/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/bootstrap-4-4.1.1/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/bootstrap-4-4.1.1/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/jszip-2.5.0/jszip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/jszip-2.5.0/jszip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/pdfmake-0.1.36/pdfmake.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/pdfmake-0.1.36/pdfmake.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/pdfmake-0.1.36/vfs_fonts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/css/responsive.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/dataTables.responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/dataTables.responsive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/responsive.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/responsive.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/responsive.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/responsive.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/responsive.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/responsive.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/responsive.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/responsive.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/responsive.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/datatables-1.10.21/plugins/responsive-2.2.5/js/responsive.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/body.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
+    <list default="true" id="868974e6-aa83-49fe-a0c7-05249845a0ef" name="Default Changelist" comment="add DataTable, Class Based Views">
+      <change afterPath="$PROJECT_DIR$/core/erp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/migrations/0005_category_desc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/erp/templates/category/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/dist/sweetalert2.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/dist/sweetalert2.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/dist/sweetalert2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/dist/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/dist/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/dist/sweetalert2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/SweetAlert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/globalState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/_destroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/_main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/buttons-handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/close.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/enable-disable-elements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/getInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/hideLoading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/keydown-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/popup-click-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/progress-steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/show-reset-validation-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/instanceMethods/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/privateMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/privateProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/scss/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/scss/_body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/scss/_polyfills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/scss/_theming.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/scss/_toasts-animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/scss/_toasts-body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/staticMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/staticMethods/argsToParams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/staticMethods/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/staticMethods/fire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/staticMethods/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/staticMethods/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/staticMethods/showLoading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/staticMethods/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/sweetalert2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/DismissReason.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/aria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/defaultInputValidators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/animationEndEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/domUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/inputUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/measureScrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/parseHtmlToContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderCloseButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderFooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderProgressSteps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/dom/renderers/renderTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/ieFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/iosFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/isNodeEnv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/openPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/scrollbarFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/setParameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/utils/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/src/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/sweetalert2-9.14.0/sweetalert2.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/django_widget_tweaks-1.4.8.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/templatetags/widget_tweaks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../env/Lib/site-packages/widget_tweaks/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/erp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/erp/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/erp/views/category/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/erp/views/category/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/body.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +135,14 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -156,14 +157,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hades-master" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.tests">
+  <component name="RunManager" selected="Django Server.server">
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python">
       <module name="app" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,7 +235,12 @@
       <workItem from="1590982069587" duration="691000" />
       <workItem from="1591025100093" duration="1057000" />
       <workItem from="1591050266448" duration="10178000" />
-      <workItem from="1591132157965" duration="17097000" />
+      <workItem from="1591132157965" duration="17381000" />
+      <workItem from="1591205394347" duration="4082000" />
+      <workItem from="1591223565487" duration="37000" />
+      <workItem from="1591223675985" duration="11882000" />
+      <workItem from="1591313858375" duration="36000" />
+      <workItem from="1591313985905" duration="5270000" />
     </task>
     <task id="LOCAL-00001" summary="add adminlte">
       <created>1591066205559</created>
@@ -240,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591066205559</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add DataTable, Class Based Views">
+      <created>1591151235766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591151235766</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +277,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add adminlte" />
-    <option name="LAST_COMMIT_MESSAGE" value="add adminlte" />
+    <MESSAGE value="add DataTable, Class Based Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DataTable, Class Based Views" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1780" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590975255298">
@@ -272,49 +289,42 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2095" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591138021514" />
-    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1591026226358">
+    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1591313889510">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591026226358" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591143620197">
+    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591313889510" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1591323056055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1591323056055" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591239491661" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1591323056055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1591323056055" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591239491661" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1591323056055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1591323056055" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591239491661" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1591323056055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1591323056055" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591239491661" />
+    <state x="1827" y="165" key="SettingsEditor" timestamp="1591228868411">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591143620197" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591143620197">
+    <state x="1827" y="165" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591228868411" />
+    <state x="1918" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591151241761">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591143620197" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591143620197">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591143620197" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591143620197">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591143620197" />
-    <state x="1827" y="165" key="SettingsEditor" timestamp="1591136866942">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1827" y="165" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591136866942" />
-    <state x="1918" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591066218063">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591066218063" />
+    <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591151241761" />
     <state x="1989" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590966138510">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1989" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590966138510" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="django-line">
-          <url>file://$PROJECT_DIR$/templates/body.html</url>
-          <line>5</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/app$tests.coverage" NAME="tests Coverage Results" MODIFIED="1591143543911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/erp" />
